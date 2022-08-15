@@ -48,7 +48,7 @@
     "ngx-clipboard": "^12.3.1",
     "ngx-cookie": "^5.0.2",
     "ngx-markdown": "13.1.0",
-    "rxjs": "^7.4.0",
+    "rxjs": "^7.5.6",
     "stream-browserify": "^3.0.0",
     "swagger-ui": "~4.10.3",
     "tslib": "^2.2.0",
