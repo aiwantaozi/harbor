@@ -20,7 +20,7 @@ RUN python -c 'import sys, yaml, json; y=yaml.load(sys.stdin.read()); print json
 COPY LICENSE /build_dir/dist
 
 
-FROM nginx:1.17
+FROM nginx:1.22.1
 
 COPY --from=builder /build_dir/dist /usr/share/nginx/html
 COPY src/portal/docker-build/nginx.conf /etc/nginx/nginx.conf
